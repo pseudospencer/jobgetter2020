@@ -26,9 +26,15 @@ const ButtonContainer = styled("button")`
 
   &:before {
     content: "";
+    border-radius: 2px;
     position: absolute;
     left: 0;
     top: 0;
+    background: linear-gradient(
+      135deg,
+      ${colors.pink400} 0%,
+      ${colors.purple400} 100%
+    );
     width: 100%;
     height: 100%;
     z-index: -1;
